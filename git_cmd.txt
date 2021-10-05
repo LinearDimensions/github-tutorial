@@ -1,9 +1,18 @@
 #Git push
 git init
-git remote 
-git init
+git remote add origin https://github.com/LinearDimensions/github-tutorial.git
 git add README.md
 git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/LinearDimensions/github-tutorial.git
+
 git push -u origin main
+if error: src refspec master does not match any
+then:
+git push -u origin HEAD:master
+
+#Git branching
+git branch -M/b main (-M selects it)
+git checkout branch1
+git branch -a (shows all branches)
+git branch -D branch1 (deletes branch1)
+git merge branch1
+git diff
