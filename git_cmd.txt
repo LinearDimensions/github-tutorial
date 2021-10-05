@@ -1,0 +1,9 @@
+#Git push
+git init
+git remote 
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/LinearDimensions/github-tutorial.git
+git push -u origin main
